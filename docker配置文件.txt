@@ -1,0 +1,13 @@
+ {
+     "builder": { "gc": { "defaultKeepStorage": "20GB", "enabled": true } },
+     "experimental": false,
+     "registry-mirrors": [
+         "https://gpzwc7ya.mirror.aliyuncs.com"
+     ],
+     "insecure-registries": ["registry-1.docker.io"],
+     "max-concurrent-downloads": 1000,                                                                                                            
+     "features": { "buildkit": true }
+ }
+
+
+//配置下载镜像地址  vi ~/.docker/daemon.json
